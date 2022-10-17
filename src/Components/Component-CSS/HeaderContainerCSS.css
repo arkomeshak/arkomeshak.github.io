@@ -1,0 +1,40 @@
+@import-normalize;
+.main-header-text {
+  padding: 10px;
+  color: white;
+  text-align: center;
+  font-size: 4em;
+  font-family: "Times New Roman", serif;
+  font-weight: bold;
+  text-shadow: 5px 5px 10px #000;
+}
+.sub-header-text {
+  color: rgb(197, 137, 41);
+  text-align: center;
+  font-size: 2em;
+  font-family: "Times New Roman", serif;
+  font-weight: bold;
+  text-shadow: 5px 5px 10px #000;
+}
+.headerWrapper {
+  position: relative;
+}
+.imageWrapper {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.1),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url("/public/Images/ForestMountain.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+}

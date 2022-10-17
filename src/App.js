@@ -1,12 +1,18 @@
 import React from "react";
+import "./App.css";
+import HeaderContainer from "./Components/HeaderContainer";
+import Navigation from "./Components/Navigation";
+import { motion } from "framer-motion";
 
-function App() {
+const App = () => {
   return (
     <>
-      <h1>Hello Fellow Mongaloids</h1>
-      <h5>Idiots</h5>
+      <Navigation />
+      <HeaderContainer />
+
+      <h5 class="sub-header">My Portfoilo</h5>
     </>
   );
-}
+};
 
 export default App;
